@@ -51,5 +51,5 @@ let id = window.location.search.slice(1);
             addComment(comment);
             txt.value = '';
             thread.comments.push(comment);
-            localStorage.setItem('threads', JSON.stringify(thread));
+            localStorage.setItem('threads', JSON.stringify(threads));
         })

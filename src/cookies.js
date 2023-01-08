@@ -11,7 +11,21 @@ let defaultThreads = [
                 author: "Dahlia",
                 date: Date.now(),
                 content: "Dies soll ein Kommentar sein"
-            }
+            },
+        ],
+    },
+    {
+        id: "2",
+        title: "Thread 2",
+        author: "Daniel",
+        date: Date.now(),
+        content: "Thread content",
+        comments: [
+            {
+                author: "Dahlia",
+                date: Date.now(),
+                content: "Dies soll ein Kommentar sein"
+            },
         ],
     },
 ]

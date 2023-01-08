@@ -49,9 +49,9 @@ console.log(threads);
             let thread = { 
             id: threadId,
             title: txt.value,
-            author: "Daniel",
+            author: 'Daniel',
             date: Date.now(),
-            content: "Thread content",
+            content: 'Thread content',
             comments: [
                 {
                     author: "",
