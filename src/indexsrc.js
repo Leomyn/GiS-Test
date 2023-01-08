@@ -53,11 +53,7 @@ console.log(threads);
             date: Date.now(),
             content: 'Thread content',
             comments: [
-                {
-                    author: "",
-                    date: Date.now(),
-                    content:"", 
-                }
+                
             ]
         }
             addThread(thread);
